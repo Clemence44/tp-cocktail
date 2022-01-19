@@ -8,10 +8,10 @@
         $personne["vient"] = true;
         $_SESSION["tab_personnes"][] = $personne;
     }
-    var_dump($_SESSION["tab_personnes"]);
-    var_dump($personne);
+   
     header("Location: 4-maquette-cocktail.php");
     
+// première partie $tab non utilisé
     $tab = [
         0 => [
             "nom" => "Jolie",
